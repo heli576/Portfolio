@@ -58,7 +58,7 @@ transition:0.2s ease-in-out;
 color:#fff;
 cursor:pointer;
 &:hover{
-  color:#710b42;
+  color:#6d2267;
   transition:0.2s ease-in-out;
 }
 
