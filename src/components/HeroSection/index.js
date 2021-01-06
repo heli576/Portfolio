@@ -26,7 +26,7 @@ const HeroSection=()=>{
    </HeroBg>
    <HeroContent>
    <HeroH1>Bonjour! I'm Heli Vakharia.</HeroH1>
-   <HeroP>I'm a MERN Stack Enthusiast.</HeroP>
+   <HeroP>I'm a Full Stack Developer.</HeroP>
    <HeroBtnWrapper>
    <Button to="about"
    onMouseEnter={onHover}
