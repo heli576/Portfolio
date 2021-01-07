@@ -68,8 +68,8 @@ transition:all 0.2s ease-in-out;
 `
 
 export const ProjectsImg=styled.img`
-height:180px;
-width:220px;
+height:160px;
+width:160px;
 margin-bottom:10px;
 `
 
@@ -81,7 +81,7 @@ margin-bottom:10px;
 
 export const VisitSite=styled(BiLinkExternal)`
 margin-left:8px;
-font-size:20px;
+font-size:15px;
 color:#6d2267;
 `
 

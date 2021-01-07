@@ -33,7 +33,12 @@ const HeroSection=()=>{
    onMouseLeave={onHover}
    primary="true"
    dark="true"
-   >Get Started {hover?<ArrowDownward/>:<ArrowDown/>}</Button>
+   smooth={true}
+   duration={500}
+   spy={true}
+   exact='true'
+   offset={-80}
+   >About Me {hover?<ArrowDownward/>:<ArrowDown/>}</Button>
    </HeroBtnWrapper>
    </HeroContent>
     </HeroContainer>
