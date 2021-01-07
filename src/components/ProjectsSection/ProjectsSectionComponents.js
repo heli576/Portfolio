@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import {BiLinkExternal} from "react-icons/bi";
 
 export const ProjectsContainer=styled.div`
 height:800px;
@@ -76,6 +77,12 @@ export const ProjectsH2=styled.h2`
 font-size:1rem;
 margin-bottom:10px;
 
+`
+
+export const VisitSite=styled(BiLinkExternal)`
+margin-left:8px;
+font-size:20px;
+color:#6d2267;
 `
 
 export const ProjectsP=styled.p`
