@@ -6,6 +6,7 @@ import InfoSection from "../components/InfoSection";
 import {aboutSection,skillsSection} from "../components/InfoSection/Data";
 import ProjectsSection from "../components/ProjectsSection";
 import ContactSection from "../components/ContactSection";
+import Footer from "../components/Footer";
 
 const Home=()=>{
   const [isOpen,setIsOpen]=useState(false);
@@ -21,6 +22,7 @@ const Home=()=>{
     <InfoSection {...skillsSection}/>
     <ProjectsSection/>
     <ContactSection/>
+    <Footer/>
     </>
   )
 }
