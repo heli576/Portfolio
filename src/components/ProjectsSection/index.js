@@ -11,6 +11,7 @@ import {
 import Img1 from "../../images/notesapp.svg";
 import Img2 from "../../images/dreamycreations.svg";
 import Img3 from "../../images/moments.svg";
+import Img4 from "../../images/messmate.svg";
 
 
 const ProjectsSection=()=>{
@@ -18,6 +19,15 @@ const ProjectsSection=()=>{
    <ProjectsContainer id="projects">
    <ProjectsH1>My Projects</ProjectsH1>
    <ProjectsWrapper>
+     <ProjectsCard>
+     <a href="https://mess-mate-305104.web.app/" target="_blank">
+     <ProjectsImg src={Img4}/>
+     </a>
+     <ProjectsH2>MessMate <a href="https://mess-mate-305104.web.app/" target="_blank"><VisitSite/></a></ProjectsH2>
+
+     <ProjectsP>Messmate acts as a link between hostelers and mess staff to decrease food wastage due to overproduction.</ProjectsP>
+
+     </ProjectsCard>
    <ProjectsCard>
    <a href="https://notesapp-reqres-cynics.herokuapp.com/" target="_blank">
    <ProjectsImg src={Img1}/>

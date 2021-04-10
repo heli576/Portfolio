@@ -2,7 +2,7 @@ import styled from "styled-components";
 import {BiLinkExternal} from "react-icons/bi";
 
 export const ProjectsContainer=styled.div`
-height:800px;
+height:900px;
 display:flex;
 flex-direction:column;
 justify-content:center;
@@ -10,11 +10,11 @@ align-items:center;
 background:#010606;
 
 @media screen and (max-width:768px){
-  height:1100px;
+  height:1200px;
   }
 
   @media screen and (max-width:480px){
-    height:1300px;
+    height:1500px;
   }
 `
 
