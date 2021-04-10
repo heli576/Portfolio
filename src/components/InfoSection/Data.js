@@ -1,5 +1,5 @@
 import AboutImage from "../../images/svg1.svg";
-import SkillImage from "../../images/svg2.svg";
+import SkillImage from "../../images/skill.png";
 export const aboutSection={
   id:'about',
   lightBg:false,
